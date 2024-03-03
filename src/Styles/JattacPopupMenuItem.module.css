@@ -1,0 +1,17 @@
+.disabled {
+  color: #c0c0c0;
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: #f0f0f0;
+  }
+}
